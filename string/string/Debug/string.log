@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/11/13 18:15:43。
+     1>项目“C:\Users\admin\Desktop\code\string\string\string.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt string.cpp
+         string.cpp
+     1>c:\users\admin\desktop\code\string\string\string.cpp(10): error C2065: “s”: 未声明的标识符
+     1>c:\users\admin\desktop\code\string\string\string.cpp(12): error C2065: “s”: 未声明的标识符
+     1>c:\users\admin\desktop\code\string\string\string.cpp(12): error C2228: “._str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>c:\users\admin\desktop\code\string\string\string.cpp(13): error C2065: “s”: 未声明的标识符
+     1>c:\users\admin\desktop\code\string\string\string.cpp(13): error C2228: “._str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>c:\users\admin\desktop\code\string\string\string.cpp(13): error C2660: “strcpy”: 函数不接受 1 个参数
+     1>c:\users\admin\desktop\code\string\string\string.cpp(22): error C2440: “=”: 无法从“nullptr”转换为“char”
+                 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+     1>已完成生成项目“C:\Users\admin\Desktop\code\string\string\string.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.23
